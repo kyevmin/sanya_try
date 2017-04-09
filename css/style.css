@@ -1,0 +1,253 @@
+
+body{
+    background-color: #F1F1F1;
+}
+#main-container, #sidebar {
+    padding: 0;
+    background-color: #FFFFFF;
+    border: 1px solid #CBCBCB;
+}
+
+/*
+======================================================
+        Header and Navigation
+======================================================
+*/
+#additional-info {
+
+    height: 30px;
+    background-color: #373737;
+}
+#navigation-bar{
+    padding-top: 10px;
+    background-color: #FFFFFF;
+}
+.logo-header {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    font-style: italic;
+}
+.logo-header img{
+    height: 60px;
+    width: 70px;
+}
+
+.navbar {
+	background-color: transparent;
+	border: 0;
+}
+
+
+	
+/*
+======================================================
+        Introduction
+======================================================
+*/
+#introduction{
+    height: 450px;
+    margin: 10px 0 0 0;
+    background-image: url("../img/back_test_1.jpg");
+    background-size: 100% 100%;
+    background-color: #9d9d9d;
+}
+.introduction-container {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    background-color: #9d9d9d;
+    opacity: 0.7;
+}
+.item{
+    margin: auto;
+    padding-top: 15%;
+    text-align: center;
+    height: 450px;
+    width: 100%;
+
+}
+.item p{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: "trebuchet ms", sans-serif;
+}
+.item h3 {
+    font-style: italic;
+    color: #FFFFFF;
+}
+
+.item-citation {
+    width: 70%;
+    margin: auto;
+}
+
+
+/*
+======================================================
+        Main
+======================================================
+*/
+/*main block*/
+#main {
+	margin-top: 20px;
+	}
+	
+
+#main-container h1 {
+    margin: 0;
+    background-color: #D4DAAE;
+    color: #FFFFFF;
+    padding-left: 5%;
+}
+
+
+
+.statistic_block {
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    margin: 2% 0;
+    margin-left: 10px;
+    padding: 5px;
+    text-align: center;
+    border: 1px dashed #717171;
+    border-radius: 120px;
+
+}
+.statistic_block_second {
+    width: 95%;
+    height: 95%;
+    margin: 2%;
+    border: 1px solid black;
+    border-radius: 120px;
+}
+.statistic_block h2, p {
+    margin: 0;
+
+}
+.statistic_block h2 {
+    margin-top: 18%;
+
+}
+
+.about_photo, .about_info {
+    display: inline-block;
+    margin: 5%;
+    vertical-align: middle;
+
+}
+
+.about_photo img {
+    width: 200px;
+    height: 200px;
+    padding: 3px;
+    border: 1px dashed black;
+    border-radius: 100px;
+}
+
+.about_info {
+    width: 50%;
+    height: 60%;
+    margin-left: 1%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #f9f9f9;
+    text-align: center;
+
+}
+
+/*
+======================================================
+        Sidebar
+======================================================
+*/
+#sidebar hr {
+	height: 1px; /* Толщина линии */
+	background-color: #CBCBCB;
+}
+
+.sidebar_testimonials {
+    width: 100%;
+    margin: auto;
+	
+}
+/*testimonials*/
+.sidebar_testimonials {
+    margin-bottom: 5%;
+}
+.item-t {
+    height: 250px;
+}
+.sidebar_testimonials h1 {
+    
+	margin: 0;
+    padding-left: 5%;
+    color: white;
+    background-color: #D4DAAE;
+
+}
+/*убрал с переключателей в отзывах фоновый серый цвет*/
+.carousel-control.left, .carousel-control.right {
+	background-image: none;
+	text-shadow: 0 3px 6px rgb(0, 0, 0);
+}
+
+.text {
+    margin: 0 auto;
+    width: 80%;
+    height: 60%;
+
+
+}
+.text p {
+
+    font-size: 16px;
+    color: black;
+}
+#indicators-testimonials li {
+
+    border: 1px solid #9d9d9d;
+    background-color: #e6e6e6;
+}
+
+#vk_groups {
+    margin: 0 auto;
+}
+#calendar  {
+   padding-left: 5%;
+    padding-right: 5%;
+}
+/*
+======================================================
+        Footer
+======================================================
+*/
+#footer {
+    margin-top: 50px;
+    background-color: #373737;
+    color: #fff;
+
+}
+
+.copyright, .social_media_icons, .designer {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.copyright {
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+.designer {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.share{
+    display: inline-block;
+}
+.designer a {
+    color: white;
+
+}
+
